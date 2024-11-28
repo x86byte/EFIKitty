@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/798f3d48-3eb0-4e78-bb3f-f575df6f7dcd)
 
 ## Contact
-- **![image](https://github.com/user-attachments/assets/b1d4096a-03dc-4823-902a-297eea064c24)Telegram**: [@x86byte](https://t.me/x86byte)
+- **Telegram**: [@x86byte](https://t.me/x86byte)
 
 # EFIKitty - Advanced UEFI Bootkit
 
